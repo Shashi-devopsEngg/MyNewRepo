@@ -3,6 +3,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
+
 }
 
 #hello 
@@ -21,6 +22,7 @@ public class VariablesExample {
     }
 }
 
+
 #Conditional Statements (if-else):
 public class ConditionalExample {
     public static void main(String[] args) {
@@ -32,6 +34,12 @@ public class ConditionalExample {
             System.out.println("Grade: B");
         } else {
             System.out.println("Grade: C or lower");
+
+public class ForLoopExample {
+    public static void main(String[] args) {
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Iteration: " + i);
+
         }
     }
 }
